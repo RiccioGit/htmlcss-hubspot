@@ -1,10 +1,76 @@
 /* IMPOSTAZIONI GENERALI CSS */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centratura {
+  padding: 0 10%;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="colonna"] {
+  float: left;
+  /* debug */
+  border: 1px solid black;
+  height: 70px;
+}
 
 /* HEADER */
+
+header  {
+
+  /* debug */
+  background-color: red;
+}
+
+header div {
+  /* debug */
+  height: 100px;
+  border: 1px solid black;
+}
 
 
 /* MAIN */
 
+#info {
+  /* background-color: rgb(245, 248, 250); */
+  background-color: green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#info div {
+  /* debug */
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+
+}
+
+#subsez-crm .colonna1 {
+  width: 20%;
+}
+
+#subsez-crm .colonna2 {
+  width: 80%;
+}
+
+#subsez-hubs [class*="colonna"] {
+  width: calc(100% / 3);
+}
+
+.blocco-sez-info {
+  background-color: white;
+  border-radius: 4px;
+  height: 50px;
+}
 
 /* FOOTER */
