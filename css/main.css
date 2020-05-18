@@ -20,7 +20,7 @@
   float: left;
   /* debug */
   /* border: 1px solid black; */
-  height: 60px;
+  /* height: 60px; */
 }
 
 .small  {
@@ -178,10 +178,12 @@ li a {
 #info div {
   /* debug */
   /* height: 100px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-bottom: 20px;
 
 }
+
+/* SOTTOSEZIONE POWER */
 
 #subsez-power {
   text-align: center;
@@ -193,6 +195,14 @@ li a {
   margin: 10px;
 }
 
+/* SOTTOSEZIONE CRM */
+
+#subsez-crm {
+  background-color: white;
+  border-radius: 6px;
+  padding: 50px;
+}
+
 
 #subsez-crm .colonna1 {
   width: 20%;
@@ -202,11 +212,46 @@ li a {
   width: 80%;
 }
 
-#subsez-hubs [class*="colonna"] {
-  width: calc(100% / 3);
+/* SOTTOSEZIONE HUBS */
+
+#subsez-hubs {
+  text-align: center;
 }
 
-.blocco-sez-info {
+#subsez-hubs [class*="colonna"] {
+  /* width: calc(100% / 3); */
+  /* margin: 5px; */
+  padding: 30px;
+}
+
+#subsez-hubs img{
+  margin: 10px;
+  width: 75px;
+}
+
+#subsez-hubs p {
+  line-height: 23px;
+}
+
+#subsez-hubs .colonna1 {
+  background-color: white;
+  width: 30%;
+}
+
+#subsez-hubs .colonna2 {
+  background-color: white;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#subsez-hubs .colonna3 {
+  background-color: white;
+  width: 30%
+}
+
+
+/* .blocco-sez-info {
   background-color: white;
   border-radius: 4px;
   /* height: 50px; */
