@@ -197,10 +197,15 @@ li a {
 
 /* SOTTOSEZIONE CRM */
 
+#subsez-crm img {
+  margin-bottom: 20px;
+}
+
 #subsez-crm {
   background-color: white;
   border-radius: 6px;
   padding: 50px;
+  text-align: center;
 }
 
 
@@ -210,6 +215,7 @@ li a {
 
 #subsez-crm .colonna2 {
   width: 80%;
+  text-align: left;
 }
 
 /* SOTTOSEZIONE HUBS */
@@ -222,16 +228,32 @@ li a {
   /* width: calc(100% / 3); */
   /* margin: 5px; */
   padding: 30px;
+  border-radius: 6px;
 }
 
-#subsez-hubs img{
+#subsez-hubs img {
   margin: 10px;
   width: 75px;
 }
 
+#subsez-hubs h4 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
 #subsez-hubs p {
   line-height: 23px;
+  margin-bottom: 20px;
 }
+
+#subsez-hubs hr {
+  margin: 30px 0;
+}
+
+#subsez-hubs ul {
+  margin: 20px;
+}
+
 
 #subsez-hubs .colonna1 {
   background-color: white;
@@ -248,6 +270,18 @@ li a {
 #subsez-hubs .colonna3 {
   background-color: white;
   width: 30%
+}
+
+.learn {
+  padding: 10px 20px;
+  margin: 3px 5px;
+  border-radius: 6px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
 }
 
 
