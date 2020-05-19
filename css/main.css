@@ -334,13 +334,10 @@ color: orange;
 
 /* SEZIONE 2 // TAB AZZURRA */
 
-#tab-azzurra div {
-  /* background: linear-gradient(to bottom, #33ccff 0%, #ccffff 100%); */
+#tab-azzurra {
   background-color: blue;
-}
-
-#tab-azzurra .riga {
-  /* background: linear-gradient(to bottom, #33ccff 0%, #ccffff 100%); */
+  width: 100%;
+  min-height: 900px;
 }
 
 .testo-azzurra {
@@ -348,8 +345,23 @@ color: orange;
 }
 
 .testo-azzurra h2 {
-  margin-bottom: 25px;
+  margin: 25px;
 }
 
+.riga-azzurra-a div{
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.riga-azzurra-b div{
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+#griglia-azzurra [class*="box"] {
+  padding: 20px;
+}
 
 /* FOOTER */
